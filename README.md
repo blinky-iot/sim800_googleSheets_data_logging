@@ -7,6 +7,7 @@ This is a guide on logging data to google sheets using Both WiFi and GPRS - SIM8
 1. Open your **Google Sheet**.
 2. Go to `Extensions > Apps Script`.
 3. Delete any default code and paste the following code from: /google-app-scripts
+4.  Change the spreadsheetId and the sheet name
 
 ```javascript
 
