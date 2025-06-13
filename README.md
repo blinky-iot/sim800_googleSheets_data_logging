@@ -72,5 +72,6 @@ function getData(e) {
 
 Clone the repo to the local machine and add the Web URL to the Arduino Sketches
 
-
+1: esp32-googlesheets-logger.ino - WiFi logging
+2: 
 
