@@ -6,7 +6,7 @@ This is a guide on logging data to google sheets using Both WiFi and GPRS - SIM8
 
 1. Open your **Google Sheet**.
 2. Go to `Extensions > Apps Script`.
-3. Delete any default code and paste the following:
+3. Delete any default code and paste the following code from: /google-app-scripts
 
 ```javascript
 
@@ -76,7 +76,7 @@ Clone the repo to the local machine and add the Web URL to the Arduino Sketches
 2. sim800l-googlesheets-logger.ino - GPRS logging
 
 
-## 🌐 Step 4: Middleware Deployment Guide for SIM800L ➝ Google Sheets
+## 🌐 Step 4: Middleware Deployment for SIM800L ➝ Google Sheets
 
 This middleware bridges simple HTTP GET requests from a SIM800L GSM module to Google Sheets' HTTPS endpoint, which SIM800L cannot access directly.
 
