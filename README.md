@@ -75,3 +75,18 @@ Clone the repo to the local machine and add the Web URL to the Arduino Sketches
 1. esp32-googlesheets-logger.ino - WiFi logging
 2. sim800l-googlesheets-logger.ino - GPRS logging
 
+
+## 🌐 Step 4: Middleware Deployment Guide for SIM800L ➝ Google Sheets
+
+This middleware bridges simple HTTP GET requests from a SIM800L GSM module to Google Sheets' HTTPS endpoint, which SIM800L cannot access directly.
+
+
+### 🖥️ 1. SSH into Your Server
+
+```bash
+ssh your-user@41.90.109.101
+cd http-middle-man
+node index.js
+```
+
+now add the server url to sim800l code: http://41.90.109.101:3000/post-data?temp=25.6&hum=67.3
